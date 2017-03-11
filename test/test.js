@@ -29,6 +29,14 @@
 
     });
 
+    describe('Return undefined for an empty array', function () {
+
+      it('should return undefinned for an empty array', function () {
+        expect(myApp.findMinMax([])).not.toBeDefined();
+      });
+
+    });
+
   });
 
 })();
